@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Counter App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>Counter App</h1>
+
+    <div id="counter" class="counter-display counter-zero">0</div>
+
+    <div class="buttons">
+      <button class="btn decrement-btn" id="decrement">
+        <span>Decrement</span>
+      </button>
+
+      <button class="btn reset-btn" id="reset">
+        <span>Reset</span>
+      </button>
+
+      <button class="btn increment-btn" id="increment">
+        <span>Increment</span>
+      </button>
+    </div>
+
+    <div class="history-section">
+      <h3 class="history-title">Counter History</h3>
+      <ul id="history" class="history-list"></ul>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
