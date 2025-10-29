@@ -23,7 +23,7 @@ function updateCounter() {
   // Add appropriate color class
   if (count > 0) {
     counterDisplay.classList.add("counter-positive");
-  } else if (counter < 0) {
+  } else if (count < 0) {
     counterDisplay.classList.add("counter-negative");
   } else {
     counterDisplay.classList.add("counter-zero");
